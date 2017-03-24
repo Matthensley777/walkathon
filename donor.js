@@ -1,9 +1,10 @@
 var Donation = (function(donor) {
-  var list = "" ;
+    var list = [];
 
-  donor.setDonation = function(listType){
-    return list[listType];
-  }
+    donor.setDonation = function(donation) {
+    	console.log(donation)
+        list.push(donation);
+    }
 
-  	return donor;
-	})(Donation || {}); 
+    return donor;
+})(Donation || {});

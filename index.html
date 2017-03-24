@@ -11,13 +11,17 @@
 		<br><br>
 
 	<div id="name" class="input-group">
-	  <span class="input-group-addon" id="basic-addon1"></span>
-	  <input type="text" class="form-control" placeholder="First Name" aria-describedby="basic-addon1">
+	  <span class="input-group-addon" id="name"></span>
+	  <input id="firstname" type="text" class="form-control" placeholder="First Name" aria-describedby="basic-addon1">
 	</div>
 
 	<div id="lastname" class="input-group">
-	  <span class="input-group-addon" id="basic-addon1"></span>
+	  <span class="input-group-addon" id="lastname"></span>
 	  <input type="text" class="form-control" placeholder="Last Name" aria-describedby="basic-addon1">
+	</div>
+	<div id="email" class="input-group">
+	  <span class="input-group-addon" id="email"></span>
+	  <input type="text" class="form-control" placeholder="Email" aria-describedby="basic-addon1">
 	</div>
 		<br>
 	  &nbsp;&nbsp;<input id="oneTime" class="button" type="radio" name="OneTime" value="one"> One Time<br>
@@ -27,18 +31,17 @@
 
 	<div class="input-group">
 	  <span class="input-group-addon">$</span>
-	  <input type="text" class="form-control" aria-label="Amount (to the nearest dollar)">
-	  <span class="input-group-addon">.00</span>
+	  <input id="donatebox" type="text" class="form-control" aria-label="Amount (to the nearest dollar)">
 	</div>
 	<br><br>
-		<button id="donate" class="donate">Donate</button>
+		&nbsp;&nbsp;<button id="donate" class="donate">Donate</button>
 
 	<div id="table" class="table">
 		<table>
 		  <tr>
-		    <th> First Name&nbsp; </th>
-		    <th> &nbsp;Last Name &nbsp;</th> 
-		    <th> Amount</th>
+		    <th id="from1"> First Name&nbsp; </th>
+		    <th id="form2"> &nbsp;Last Name &nbsp;</th> 
+		    <th id="form3"> Amount</th>
 		  </tr>
 		  <tr>
 		    <td></td>

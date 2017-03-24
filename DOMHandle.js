@@ -1,11 +1,14 @@
 var totalDonation = 0;
 var finalDonation = 0;
 
-var donationForm = document.getElementById("Donation");
+var donationForm = document.getElementById("donate");
+var firstName = document.getElementById("firstname");
 
 
-document.getElementById("donate").addEventListener("click", function(){
-	totalDonation = Donation.getTotalDonation();
-	finalDonation.innerHTML = `total:${totalDonation}`;
+donationForm.addEventListener("click", function(event) {
+	var newDonation = {"firstName":firstName.value}
+	Donation.setDonation(newDonation)
+    
 })
+
 
